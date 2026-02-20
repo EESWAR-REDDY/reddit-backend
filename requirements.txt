@@ -1,0 +1,23 @@
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# Reddit API
+praw==7.7.1
+
+# NLP & ML
+textblob==0.18.0.post0
+nltk==3.8.1
+
+# Fix NumPy compatibility and distutils issue
+numpy<2.0.0
+setuptools>=65.0.0
+
+# ML Libraries (compatible versions)
+transformers==4.37.2
+torch==2.2.0
+accelerate==0.26.1
