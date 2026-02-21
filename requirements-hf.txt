@@ -1,0 +1,6 @@
+# Optional: HuggingFace emotion model (~2GB+). Use when USE_HF_EMOTION_MODEL=true.
+# Install after base deps: pip install -r requirements.txt && pip install -r requirements-hf.txt
+# Not needed for Railway (use keyword-based emotion with USE_HF_EMOTION_MODEL=false).
+transformers==4.37.2
+torch==2.2.0
+accelerate==0.26.1
