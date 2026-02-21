@@ -22,7 +22,7 @@ allowed_origins = [
 # 🚀 Enable CORS for frontend → backend communication
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allowed_origins,
+    allow_origins=["*"],   # ✅ Allow all origins (for your review tomorrow)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
